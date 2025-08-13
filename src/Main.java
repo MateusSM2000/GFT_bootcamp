@@ -11,5 +11,11 @@ public class Main {
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
             System.out.println("i = " + i);
         }
+
+        System.out.println("argumento 1: " + args[0]); //declara as variaveis na execução do arquivo no terminal, dps do caminho seguido de espaço
+        System.out.println("argumento 2: " + args[1]);
+
+        String msg = "Hello World!";
+        System.out.println(msg);
     }
 }
