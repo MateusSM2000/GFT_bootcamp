@@ -10,6 +10,6 @@ public class Classes {
         System.out.printf("%s %s\n", person1.getCPF(), person1.getSex());
         Person.staticMethod();
         var person2 = new Person("Marcia");
-        System.out.println(person2.name)
+        System.out.println(person2.name);
     }
 }
